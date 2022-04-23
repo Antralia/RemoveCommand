@@ -1,0 +1,13 @@
+# RemoveCommand plugin config.
+
+# Mode of plugin functional: unregister - will unregister command, block - will prevent from using by player.
+mode: "unregister"
+# This message will be sent to player if he tries to perform a blocked command (only for "block" mode) | Available tags: {COMMAND}
+blocked-message: "§cCommand {COMMAND} is blocked by administrator."
+
+# List of commands to unregister/block.
+commands:
+  - "version"
+  - "plugins"
+
+# Made with <3 by Antralia Studios (https://github.com/Antralia)
